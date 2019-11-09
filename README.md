@@ -4,11 +4,11 @@
 
 * [Serge Rey](http://sergerey.org)
 
-This repository contains a `docker` container that is used for teaching workshops on spatial data science with PySAL.
+This repository contains a `docker` container that is used for teaching workshops on spatial data science with [PySAL](https://pysal.org).
 
 ## Requirements
 
-You will need [Docker](https://www.docker.com) to be able to install the GDS environment.
+You will need [Docker](https://www.docker.com) to be able to install the PySAL workshop environment.
 
 ## Installing
 
@@ -38,7 +38,13 @@ The container can be run as:
 > docker run --rm -ti -p 8888:8888 -v ${pwd}:/home/jovyan/host sjsrey/pysalworkshop:v1
 ```
 
-<img src="JupyterLab.png" width="500">
+This will report a link that you can open in your browser. Something like: http://127.0.0.1:8888/?token=416f32d0edd4f7143f208a517cbe618ecda2953154715777
+
+after which you should have a browser open up:
+
+![notebook browser](https://i.imgur.com/GGUHvBx.png)
+
+
 
 A couple of notes on the command above:
 
